@@ -5,7 +5,7 @@ lembre-se de deixa-la entra áspas
 
 */
 
-const senha = ''; //Digite a senha dentro das áspas
+const senha = 'avnsjc5'; //Digite a senha dentro das áspas
 
 
 const caracteresEspeciais = ['!', '@', '#', '$', '%', '^', '*', '&', '(', ')', '-', '+']

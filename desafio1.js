@@ -1,7 +1,7 @@
 /*
     Modifique apenas a constante (n)
 */
-const n = 6    //Modifique aqui
+const n = 6;    //Modifique aqui
 
 const array = [];
 
