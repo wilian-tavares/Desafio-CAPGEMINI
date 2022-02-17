@@ -6,7 +6,7 @@ Repositório dedicado ao desafio de programação da Capgemini referente à Acad
 
 ## Sobre o desafio:
 
-O desafio poderia ser feito em qualquer linguagem de programação, então optei em usar Javascript por estar mais familizarizado no momento. 
+O desafio poderia ser feito em qualquer linguagem de programação, então optei em usar Javascript por estar mais familiarizado no momento. 
 
 _Os Arquivos estão nomeados como (desafio1.js desafio2.js, desafio3.js)  Bastando apenas abrir o arquivo, de preferencia no Visual Studio Code com a Extensão **Code Runner** para execução do mesmo, se for da vontade dos referidos._
 
