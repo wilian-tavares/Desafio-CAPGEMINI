@@ -27,10 +27,7 @@ Na questão 2, é preciso modificar apenas o valor da 'senha', digitando senha d
 <hr>
 
 ### Técnologias utilizadas:
-<img src="https://yt3.ggpht.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s40-c-k-c0x00ffffff-no-rj" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/40px-Unofficial_JavaScript_logo_2.svg.png" />
-<img src="https://camo.githubusercontent.com/4c1627abf05f8c0118977eb1cb2b81fa86b900e5958789520102282627eb1dfc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f35302f3030303030302f6769742e706e67"/>
-<img src="https://camo.githubusercontent.com/df55c1ac3aa8975d26d4c3a261868d8a7294f4802cf9e36d79137502effe22cd/68747470733a2f2f696d672e69636f6e73382e636f6d2f6e6f6c616e2f36342f6769746875622e706e67" />
+<img src="https://yt3.ggpht.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s40-c-k-c0x00ffffff-no-rj" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/40px-Unofficial_JavaScript_logo_2.svg.png" /><img src="https://camo.githubusercontent.com/4c1627abf05f8c0118977eb1cb2b81fa86b900e5958789520102282627eb1dfc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f35302f3030303030302f6769742e706e67"/><img src="https://camo.githubusercontent.com/df55c1ac3aa8975d26d4c3a261868d8a7294f4802cf9e36d79137502effe22cd/68747470733a2f2f696d672e69636f6e73382e636f6d2f6e6f6c616e2f36342f6769746875622e706e67" />
 
 - Visual Studio Code
 - Javascript
