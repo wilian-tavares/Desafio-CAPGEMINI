@@ -32,7 +32,8 @@ Na questão 3, é preciso modificar apenas o valor da 'entrada' na linha 1, e de
 
 - Visual Studio Code
 - Javascript
-- Git && Github
+- Git
+- Github
 
 ## Como rodar a aplicação:
 
