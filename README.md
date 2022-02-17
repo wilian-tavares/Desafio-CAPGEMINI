@@ -8,10 +8,11 @@ Repositório dedicado ao desafio de programação da Capgemini referente à Acad
 
 O desafio poderia ser feito em qualquer linguagem de programação, então optei em usar Javascript por estar mais familiarizado no momento. 
 
-_Os Arquivos estão nomeados como (desafio1.js desafio2.js, desafio3.js)  Bastando apenas abrir o arquivo, de preferencia no Visual Studio Code com a Extensão **Code Runner** para execução do mesmo, se for da vontade dos referidos._
+_Os Arquivos estão nomeados como (desafio1.js desafio2.js, desafio3.js)  Bastando apenas abrir o arquivo, de preferência no Visual Studio Code com a Extensão **Code Runner** para execução do mesmo, se for da vontade dos referidos._
 
 Na questão 1, é preciso modificar apenas o valor de 'n' (linha 4), e rodar o programa... no final terá a saída desejada.
 Na questão 2, é preciso modificar apenas o valor da 'senha', digitando senha desejada entre os "Parenteses", localizado na linha 8, e depois é só rodar o programa.
+Na questão 3, é preciso modificar apenas o valor da 'entrada' na linha 1, e depois rodar o programa.
 
 
 <hr>
