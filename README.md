@@ -38,5 +38,7 @@ Na questão 2, é preciso modificar apenas o valor da 'senha', digitando senha d
 1. Clone o repositório;
 2. Abra a pasta do projeto no Visual Studio Code;
 3. Abra o arquivo de cada desafio
-4. Modifique o valor da variável (n) no desafio 1, e variável (senha) no desafio 2;
+4. Modifique o valor da variável (n) no desafio 1.
+5. Modifique o valor da  variável (senha) no desafio 2.
+6. Modifique o valor da variável (entrada) no desafio 3.
 
