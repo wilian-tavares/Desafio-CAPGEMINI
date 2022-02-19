@@ -5,102 +5,75 @@ lembre-se de deixa-la entra áspas
 
 */
 
-const senha = 'avnsjc5'; //Digite a senha dentro das áspas
+const senha = '12aA*' // Modifique aqui
 
+const especiais = /[!, @, #, $, %, ^,*,&, (, ) ,-, +]/;
+const numeros = /[0-9]/
+const minuscula = /[a-z]/;
+const maiuscula = /[A-Z]/;
 
-const caracteresEspeciais = ['!', '@', '#', '$', '%', '^', '*', '&', '(', ')', '-', '+']
+const todos = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#$%^&*()-+]).{6,}$/;
 
-function tamanho(senha) {
+function validaNumero(senha, numeros) {
+    const resultado = numeros.test(senha)
 
-    if (senha.length < 1) {
-        console.log('A Senha está vázia')
+    if (resultado === true) {
+        console.log('Tem Pelo menos um Dígito')
+    } else {
+        console.log('não tem Dígito')
     }
-    else if (senha.length === 1) {
-        console.log('A senha Contém Apenas 1 Dígito!')
+}
 
-    }
-    else if (senha.length > 1 && senha.length < 6) {
-        console.log('A Senha precisa de 6 Dígitos')
-        console.log(`Atualmente tem: ${senha.length}`)
+function validaEspeciais(senha, especiais) {
+    const resultado = especiais.test(senha);
+    if (resultado === true) {
+        console.log('Tem pelo menos um  caractere Especial')
     }
     else {
-        console.log('A senha tem o tamanho certo')
-
+        console.log('Não tem Caractere Especial')
     }
 }
 
-function especial(senha, caracteresEspeciais) {
-
-    let quantidadeEspeciais = 0;
-
-    for (let i = 0; i < senha.length; i++) {
-        for (let j = 0; j < caracteresEspeciais.length + 1; j++) {
-
-            if (senha[i] === caracteresEspeciais[j]) {
-                quantidadeEspeciais++;
-                break;
-            }
-            else { }
-        }
-
-    }
-
-    if (quantidadeEspeciais < 1) {
-        console.log('Não Tem Especiais')
+function validaMaiuscula(senha, maiuscula) {
+    const resultado = maiuscula.test(senha)
+    if (resultado === true) {
+        console.log('Tem pelo menos uma letra Maiuscula')
     }
     else {
-        console.log(`Tem Pelo menos ${quantidadeEspeciais} Caracter Especial`)
+        console.log('Não tem maiuscula')
     }
 }
 
-function maiuscula(senha) {
-    let i = 0;
-    let quantidadeMaiscula = 0;
-
-    while (i < senha.length) {
-
-        if (senha[i] == senha[i].toUpperCase()) {
-            quantidadeMaiscula++;
-            console.log(`Tem pelo menos ${quantidadeMaiscula} Maiúscula`)
-            break;
-        }
-        else { }
-
-        i++;
+function validaMinuscula(senha, minuscula) {
+    const encontrado = minuscula.test(senha);
+    if (encontrado === true) {
+        console.log('Tem pelo menos uma letra Minuscula')
     }
-    if (quantidadeMaiscula < 1) {
-        console.log('Não Tem Letra Maíscula')
+    else {
+        console.log('Não tem letra Minuscula')
     }
 }
 
-function minuscula(senha) {
-    let j = 0;
-    let quantidadeMinuscula = 0;
-
-    while (j < senha.length) {
-
-        if (senha[j] == senha[j].toLowerCase()) {
-            quantidadeMinuscula++;
-            console.log(`Tem pelo menos ${quantidadeMinuscula} minúscula`);
-            break;
-        }
-        else {
-        }
-        j++;
+function validaTamanho(senha) {
+    if (senha.length < 6) {
+        console.log(`Sua senha tem apenas ${senha.length} Caracteres. O Tamanho Necessário é 6. `)
     }
-    if (quantidadeMinuscula < 1) {
-        console.log('Não Tem Letra Minúscula')
+    else {
+        console.log('A senha tem o Tamanho Mínimo necessário')
     }
 }
 
-function validador(senha, caracteresEspeciais) {
-    console.log(`A senha escolhida foi: ${senha}`)
-    tamanho(senha);
-    especial(senha, caracteresEspeciais);
-    maiuscula(senha);
-    minuscula(senha);
+function validador(senha, numeros, especiais, minuscula, maiuscula, todos) {
+    console.log(`Sua senha = ${senha}`)
+    validaTamanho(senha);
+    validaMinuscula(senha, minuscula)
+    validaMaiuscula(senha, maiuscula)
+    validaEspeciais(senha, especiais)
+    validaNumero(senha, numeros)
 }
 
-validador(senha, caracteresEspeciais)
+validador(senha, numeros, especiais, minuscula, maiuscula)
+
+
 
 
